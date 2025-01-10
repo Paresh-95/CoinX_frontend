@@ -168,8 +168,8 @@ function App() {
           <h1 className="text-2xl font-bold text-gray-900">Crypto Market</h1>
         </div>
 
-        <CoinSection title="You May Also Like" coins={popularCoins.slice(0,4)} />
-        <CoinSection title="Trending Coins" coins={trendingCoins.slice(4,8)} />
+        <CoinSection title="You May Also Like" coins={popularCoins} />
+        <CoinSection title="Trending Coins" coins={trendingCoins} />
       </div>
     </div>
   );
